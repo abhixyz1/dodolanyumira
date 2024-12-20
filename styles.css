@@ -144,7 +144,6 @@ li:last-of-type::marker {
 	content: "╚══";
 }
 
-
 ul {
 	line-height: 1.2;
 }
