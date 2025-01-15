@@ -18,6 +18,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-image: 
+        linear-gradient(to right, var(--border-color) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--border-color) 1px, transparent 1px);
+    background-size: 40px 40px; /* Ukuran grid */
+    background-position: -1px -1px; /* Posisi grid */
 }
 
 .container {
@@ -34,10 +39,11 @@ body {
     text-align: center;
     margin-bottom: 40px;
     padding: 20px;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background-color: var(--primary-color); /* Warna solid */
+    border: 3px solid var(--border-color); /* Border tebal */
     border-radius: 15px;
     color: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 0px var(--border-color); /* Efek bayangan neobrutalism */
     position: relative;
     overflow: hidden;
 }
@@ -83,7 +89,7 @@ body {
     height: 100px;
     margin-right: 10px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 3px solid var(--border-color); /* Border tebal */
     position: relative;
     z-index: 1;
 }
@@ -261,10 +267,11 @@ body {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
-    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background-color: var(--secondary-color); /* Warna solid */
+    border: 3px solid var(--border-color); /* Border tebal */
     border-radius: 15px;
     color: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 0px var(--border-color); /* Efek bayangan neobrutalism */
 }
 
 .footer p {
