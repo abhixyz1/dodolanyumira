@@ -10,13 +10,23 @@
 </head>
 
 <body>
+	<!-- Tambahkan Menu Navigasi -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#services">Pricelist</a></li>
+        <li><a href="#payment">Payment</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#map">Location</a></li>
+    </ul>
+</nav>
+
 	<div class="container">
 		<header class="header">
 			<h1><img src="kucing.jpg" alt="Kucing Logo" class="logo"> Yumira Glory Store</h1>
 			<p>Your One-Stop Solution for Digital Subscriptions</p>
 		</header>
 		<main class="main-content">
-			<section class="services hidden">
+			<section id="services" class="services hidden">
 				<div class="service-card">
 					<h2>
 						<img src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
@@ -30,7 +40,7 @@
 						<h3>1 Profile 1 user</h3>
 						<li>3 Days = Rp. 7.500</li>
 						<li>7 Days = Rp. 12.500</li>
-						<li>1 Month = Rp. 33.000</li>
+						<li>1 Month = Rp. 32.000</li>
 						<h3>Semi Private</h3>
 						<li>1 Month = Rp. 37.000</li>
 						<h3>Single Screen</h3>
@@ -121,9 +131,9 @@
 					</h2>
 					<ul>
 						<h3>Sharing 5 Users</h3>
-						<li>1 Month = Rp. 20.000</li>
+						<li>1 Month = Rp. 15.000</li>
 						<h3>Private</h3>
-						<li>1 Month = Rp. 55.000</li>
+						<li>1 Month = Rp. 50.000</li>
 					</ul>
 				</div>
 				<div class="service-card">
@@ -156,10 +166,11 @@
 						<li>1 Month = Rp. 90.000</li>
 					</ul>
 				</div>
-			</section>
+			</section><br>
+			
 
 			<!-- Payment Section -->
-			<section class="payment-section hidden">
+			<section id="payment" class="payment-section hidden">
 				<h2>Payment Methods</h2>
 				<div class="payment-methods">
 					<div class="payment-method">
@@ -192,19 +203,19 @@
 						<p>Binance</p>
 					</div>
 				</div>
-			</section>
+			</section><br>
 
 			<!-- Contact Section -->
-			<section class="contact-section hidden">
+			<section id="contact" class="contact-section hidden">
 				<h2>Contact Us</h2>
 				<p>For more information, please contact us via WhatsApp:</p>
 				<a href="https://wa.me/6285338364410/" class="whatsapp-button">Click here!</a>
-			</section>
+			</section><br>
 
 			<!-- Map Section -->
 			<section class="map-section hidden">
 				<h2>Find Us Here!</h2>
-				<div class="map">
+				<div id="map" class="map">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.8817796304296!2d112.61054836958336!3d-7.944352699504985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78827303ed3351%3A0xd0048b63038127c2!2sJl.%20Mayjen%20Hariyono%2034%2C%20Dinoyo%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur%2065144!5e0!3m2!1sid!2sid!4v1734665003419!5m2!1sid!2sid"
 						width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
